@@ -3,7 +3,6 @@
 import streamlit as st
 import webbrowser
 
-print("页面被访问")
 st.set_page_config(page_title="视频解析器", layout="centered")
 
 st.title("🎬视频解析器")
@@ -74,6 +73,7 @@ with st.expander("⚠️ 免责声明"):
     - 本软件不存储任何视频内容  
     - 使用本软件所产生的一切后果由用户自行承担  
     """)
+
 
 
 
