@@ -2,15 +2,7 @@
 # -*- coding: utf-8 -*-
 import streamlit as st
 import webbrowser
-import datetime
 
-# 获取当前时间和访问 IP（仅 Render 内部，不一定是真实公网 IP）
-now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-st.session_state.setdefault("visited", False)
-
-if not st.session_state["visited"]:
-    print(f"[访问记录] 页面被访问于 {now}")
-    st.session_state["visited"] = True
 
 st.set_page_config(page_title="视频解析器", layout="centered")
 
@@ -82,6 +74,7 @@ with st.expander("⚠️ 免责声明"):
     - 本软件不存储任何视频内容  
     - 使用本软件所产生的一切后果由用户自行承担  
     """)
+
 
 
 
