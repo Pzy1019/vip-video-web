@@ -1,0 +1,1 @@
+web: streamlit run vip_video_web.py --server.port=$PORT --server.address=0.0.0.0
