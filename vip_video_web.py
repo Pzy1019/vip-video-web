@@ -3,9 +3,9 @@
 import streamlit as st
 import webbrowser
 
-st.set_page_config(page_title="VIP 视频解析器", layout="centered")
+st.set_page_config(page_title="视频解析器", layout="centered")
 
-st.title("🎬 VIP 视频解析器（网页版）")
+st.title("🎬视频解析）")
 st.markdown("**仅供学习交流，请勿用于商业用途！**")
 
 # 平台列表
@@ -73,3 +73,4 @@ with st.expander("⚠️ 免责声明"):
     - 本软件不存储任何视频内容  
     - 使用本软件所产生的一切后果由用户自行承担  
     """)
+
