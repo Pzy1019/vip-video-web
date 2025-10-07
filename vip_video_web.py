@@ -6,7 +6,7 @@ import webbrowser
 st.set_page_config(page_title="视频解析器", layout="centered")
 
 st.title("🎬视频解析器")
-st.markdown("**仅供学习交流，请勿用于商业用途！建议使用线路①和线路④**")
+st.markdown("**仅供学习交流，请勿用于商业用途！建议使用线路①和线路④，视频遇到卡住或者出错情况，回到此界面重新进入**")
 
 # 平台列表
 platform_urls = {
@@ -73,6 +73,7 @@ with st.expander("⚠️ 免责声明"):
     - 本软件不存储任何视频内容  
     - 使用本软件所产生的一切后果由用户自行承担  
     """)
+
 
 
 
